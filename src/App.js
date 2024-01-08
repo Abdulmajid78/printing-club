@@ -1,7 +1,10 @@
 import React, {Component} from "react";
 import Navbar from "./components/Navbar";
-import Header from "./components/header";
-import MainSection from "./components/mainSection";
+import Header from "./components/Header";
+import MainSection from "./components/MainSection";
+import RowSection from "./components/RowSection";
+import Lower from "./components/Lower";
+import Footer from "./components/Footer";
 
 
 class App extends Component {
@@ -12,6 +15,9 @@ class App extends Component {
                 <Navbar/>
                 <Header/>
                 <MainSection/>
+                <RowSection/>
+                <Lower/>
+                <Footer/>
             </div>
         )
     }

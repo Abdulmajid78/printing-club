@@ -1,0 +1,128 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-border {
+    margin: 0 60px;
+}
+
+.button-black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #111;
+    color: white;
+}
+
+.header .container .row h1 {
+    color: #000;
+    font-family: Livvic;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 78px */
+    padding: 41px 0 33px 0;
+}
+
+.header .container .row p {
+    color: #000;
+    font-family: Livvic;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 33.6px */
+    padding-bottom: 65px;
+}
+
+.header .container .row h6 {
+    color: #000;
+    font-family: Livvic;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 33.6px */
+    padding-top: 45px;
+}
+
+.main .container .row h2 {
+    color: #000;
+    font-family: Livvic;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 138.889% */
+    margin-bottom: 39px;
+}
+
+.main .container .row p {
+    color: #000;
+    font-family: Livvic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 145.833% */
+    margin-bottom: 65px;
+}
+
+.main .container .row div .retangle {
+    border: 1px solid #BCBCBC;
+    width: 285px;
+    height: 118px;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rowSection .container .row h3 {
+    color: #000;
+    font-family: Livvic;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 138.889% */
+}
+
+.rowSection .card .card-body {
+    color: #000;
+    font-family: Livvic;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 123.077% */
+}
+
+.white-box {
+    width: 280px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+}
+
+footer .nav .nav-item .nav-link {
+    color: #000;
+    font-family: Livvic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    opacity: 0.5;
+}
+
+footer p {
+    color: #000;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    opacity: 0.7;
+    margin-bottom: 35px;
+}
